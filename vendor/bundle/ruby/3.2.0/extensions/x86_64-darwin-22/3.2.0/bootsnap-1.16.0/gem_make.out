@@ -1,0 +1,18 @@
+current directory: /Users/soikawachihiko/workspace/runteq/LINRbot研究/techpit-clothes/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+/Users/soikawachihiko/.asdf/installs/ruby/3.2.0/bin/ruby -I /Users/soikawachihiko/.asdf/installs/ruby/3.2.0/lib/ruby/3.2.0 extconf.rb
+creating Makefile
+
+current directory: /Users/soikawachihiko/workspace/runteq/LINRbot研究/techpit-clothes/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230717-14533-cp8ad6 sitelibdir\=./.gem.20230717-14533-cp8ad6 clean
+
+current directory: /Users/soikawachihiko/workspace/runteq/LINRbot研究/techpit-clothes/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230717-14533-cp8ad6 sitelibdir\=./.gem.20230717-14533-cp8ad6
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/soikawachihiko/workspace/runteq/LINRbot研究/techpit-clothes/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230717-14533-cp8ad6 sitelibdir\=./.gem.20230717-14533-cp8ad6 install
+/usr/local/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20230717-14533-cp8ad6/bootsnap
+
+current directory: /Users/soikawachihiko/workspace/runteq/LINRbot研究/techpit-clothes/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230717-14533-cp8ad6 sitelibdir\=./.gem.20230717-14533-cp8ad6 clean

@@ -1,0 +1,18 @@
+current directory: /Users/soikawachihiko/workspace/runteq/LINRbot研究/techpit-clothes/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/Users/soikawachihiko/.asdf/installs/ruby/3.2.0/bin/ruby -I /Users/soikawachihiko/.asdf/installs/ruby/3.2.0/lib/ruby/3.2.0 extconf.rb
+creating Makefile
+
+current directory: /Users/soikawachihiko/workspace/runteq/LINRbot研究/techpit-clothes/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230717-12657-bk81cp sitelibdir\=./.gem.20230717-12657-bk81cp clean
+
+current directory: /Users/soikawachihiko/workspace/runteq/LINRbot研究/techpit-clothes/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230717-12657-bk81cp sitelibdir\=./.gem.20230717-12657-bk81cp
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/soikawachihiko/workspace/runteq/LINRbot研究/techpit-clothes/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230717-12657-bk81cp sitelibdir\=./.gem.20230717-12657-bk81cp install
+/usr/local/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20230717-12657-bk81cp
+
+current directory: /Users/soikawachihiko/workspace/runteq/LINRbot研究/techpit-clothes/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230717-12657-bk81cp sitelibdir\=./.gem.20230717-12657-bk81cp clean

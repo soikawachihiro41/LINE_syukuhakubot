@@ -1,0 +1,20 @@
+current directory: /Users/soikawachihiko/workspace/runteq/LINRbot研究/techpit-clothes/vendor/bundle/ruby/3.2.0/gems/racc-1.7.1/ext/racc/cparse
+/Users/soikawachihiko/.asdf/installs/ruby/3.2.0/bin/ruby -I /Users/soikawachihiko/.asdf/installs/ruby/3.2.0/lib/ruby/3.2.0 extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /Users/soikawachihiko/workspace/runteq/LINRbot研究/techpit-clothes/vendor/bundle/ruby/3.2.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230717-12657-vq72zx sitelibdir\=./.gem.20230717-12657-vq72zx clean
+
+current directory: /Users/soikawachihiko/workspace/runteq/LINRbot研究/techpit-clothes/vendor/bundle/ruby/3.2.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230717-12657-vq72zx sitelibdir\=./.gem.20230717-12657-vq72zx
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/soikawachihiko/workspace/runteq/LINRbot研究/techpit-clothes/vendor/bundle/ruby/3.2.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230717-12657-vq72zx sitelibdir\=./.gem.20230717-12657-vq72zx install
+/usr/local/bin/ginstall -c -m 0755 cparse.bundle ./.gem.20230717-12657-vq72zx/racc
+
+current directory: /Users/soikawachihiko/workspace/runteq/LINRbot研究/techpit-clothes/vendor/bundle/ruby/3.2.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230717-12657-vq72zx sitelibdir\=./.gem.20230717-12657-vq72zx clean
