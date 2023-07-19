@@ -1,6 +1,5 @@
 class LineBotController < ApplicationController
   protect_from_forgery except: [:callback]
-
   def callback
     body = request.body.read
     signature = request.env['HTTP_X_LINE_SIGNATURE']
@@ -20,16 +19,14 @@ class LineBotController < ApplicationController
     end
     head :ok
   end
-
   private
-
+ 
     def client
       @client ||= Line::Bot::Client.new { |config|
         config.channel_secret = ENV["LINE_CHANNEL_SECRET"]
         config.channel_token = ENV["LINE_CHANNEL_TOKEN"]
       }
     end
-
     def search_and_create_message(keyword)
       http_client = HTTPClient.new
       url = 'https://app.rakuten.co.jp/services/api/Travel/KeywordHotelSearch/20170426'
@@ -51,6 +48,7 @@ class LineBotController < ApplicationController
           text: text
         }
       else
+
         {
           type: 'flex',
           altText: '宿泊検索の結果です。',
@@ -58,6 +56,7 @@ class LineBotController < ApplicationController
         }
       end
     end
+
     def set_carousel(hotels)
       bubbles = []
       hotels.each do |hotel|
@@ -68,6 +67,7 @@ class LineBotController < ApplicationController
         contents: bubbles
       }
     end
+
     def set_bubble(hotel)
       {
         type: 'bubble',
@@ -76,6 +76,7 @@ class LineBotController < ApplicationController
         footer: set_footer(hotel)
       }
     end
+
     def set_hero(hotel)
       {
         type: 'image',
@@ -89,6 +90,7 @@ class LineBotController < ApplicationController
         }
       }
     end
+
     def set_body(hotel)
       {
         type: 'box',
@@ -156,6 +158,7 @@ class LineBotController < ApplicationController
         ]
       }
     end
+
     def set_footer(hotel)
       {
         type: 'box',
